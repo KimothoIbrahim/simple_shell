@@ -3,7 +3,7 @@
 /**
  * main - Entry function to the shell
  * @ac: count of arguments provided with command
- * @av: array of strings arguments privided in command line 
+ * @av: array of strings arguments privided in command line
  * @env: enviroment variables
  * Return: 0 on success, 1 on failure
  */

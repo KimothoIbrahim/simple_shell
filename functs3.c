@@ -88,6 +88,11 @@ void _execute(char **command, char **env)
 
 }
 
+/**
+ * remove_comment - removes comments from command line
+ * @buffer: pointer to recieved commands
+ */
+
 void remove_comment(char *buffer)
 {
 	int i = 0;
