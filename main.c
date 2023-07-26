@@ -24,7 +24,6 @@ int main(int ac __attribute__((unused)),
 		if (line[0] == '\0' || line[0] == '\n')
 			continue;
 		execute(line, env);
-		_puts("$", 0);
 	}
 	free(line);
 	return (0);
